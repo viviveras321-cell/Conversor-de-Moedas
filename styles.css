@@ -12,6 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    position:relative;
 }
 
 .container {
@@ -22,6 +23,7 @@ body {
     width: 100%;
     max-width: 500px;
     text-align: center;
+    position: relative;
 }
 
 h1 {
@@ -144,3 +146,50 @@ border-radius: 15px;
 margin-top: 20px;
 display:none;
 }
+
+.moeda {
+    position: absolute;
+    width: 60px;
+    top: -30px;
+    right: 40px;
+}
+
+.moeda2{
+    left:40px;
+}
+
+.estrela {
+    position: absolute;
+    width: 25px;
+}
+
+.estrela1 {
+    top: 100px;
+    left: 50px;
+}
+
+.estrela2 {
+    top: 250px;
+    right: 50px;
+}
+
+.estrela3 {
+    bottom: 100px;
+    left: 150px;
+    
+}
+
+.estrela4 {
+    bottom: 100px;
+    right: 100px;
+}
+
+.gatinho{
+      position: absolute;
+    width: 120px;
+    top: -94px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
